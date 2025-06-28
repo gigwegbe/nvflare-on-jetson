@@ -22,3 +22,12 @@ sudo swapon /swapfile
 ```
 free -h
 ```
+
+### Enviroment variables 
+``` 
+export USE_NCCL=0
+export USE_DISTRIBUTED=1      
+export USE_QNNPACK=0
+export USE_PYTORCH_QNNPACK=0
+export TORCH_CUDA_ARCH_LIST="5.3;6.2;7.2" 
+```
