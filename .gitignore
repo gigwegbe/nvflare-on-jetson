@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 *$py.class
+base_fed_job.py
+fed_avg.py
+tf_receiver.py
 
 # C extensions
 *.so
