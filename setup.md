@@ -3,14 +3,23 @@
 sudo apt-get update
 ```
 
-- Install python:
+- Download Python 3.11 source:
 ```
-sudo apt install python3.8 python3.8-venv python3.8-dev
+sudo wget https://www.python.org/ftp/python/3.10.14/Python-3.10.14.tgz
+sudo tar xzf Python-3.10.14.tgz
+cd Python-3.10.14
+```
+
+- Build and Install: 
+```
+sudo ./configure --enable-optimizations
+sudo make -j$(nproc)
+sudo make altinstall
 ```
 
 - Create virtual environment: 
 ```
-python3.8 -m venv myenv
+python3.10 -m venv nvflare-env
 ```
 
 - Activate the virtual environment: 
