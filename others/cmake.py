@@ -12,7 +12,7 @@ import sysconfig
 from packaging import version
 from typing import IO, Any, Dict, List, Optional, Union, cast
 
-from . import which
+from .. import which
 from .env import (BUILD_DIR, IS_64BIT, IS_DARWIN, IS_WINDOWS, check_negative_env_flag)
 from .numpy_ import USE_NUMPY, NUMPY_INCLUDE_DIR
 
