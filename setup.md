@@ -30,15 +30,37 @@ python3.10 -m venv nvflare-env
 
 - Activate the virtual environment: 
 ```
- source myenv/bin/activate
+ source nvflare-env/bin/activate
 ```
 
 Other installations: 
 ```
 sudo apt install libomp-dev
 sudo apt install libopenmpi-dev
+sudo apt install -y libssl-dev zlib1g-dev
 sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev
 sudo apt-get install libopenblas-base libopenblas-dev
+```
+```
+sudo apt update
+sudo apt install -y \
+  build-essential \
+  libssl-dev \
+  zlib1g-dev \
+  libbz2-dev \
+  libreadline-dev \
+  libsqlite3-dev \
+  libffi-dev \
+  liblzma-dev \
+  libgdbm-dev \
+  libncursesw5-dev \
+  libdb-dev \
+  tk-dev \
+  uuid-dev \
+  libnss3-dev \
+  libgpm-dev \
+  libncurses5-dev \
+  libexpat1-dev
 ```
 
 - Test Pytorch 
@@ -122,6 +144,10 @@ AttributeError: module 'distutils' has no attribute 'version'
             # generator-style dataset one day...).
 ```
 
+
+```
+git clone https://github.com/NVIDIA/NVFlare.git
+```
 
 
 ```

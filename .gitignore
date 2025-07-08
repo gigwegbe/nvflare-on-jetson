@@ -5,6 +5,7 @@ __pycache__/
 base_fed_job.py
 fed_avg.py
 tf_receiver.py
+NVFlare/
 
 # C extensions
 *.so
