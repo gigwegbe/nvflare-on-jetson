@@ -6,6 +6,8 @@ base_fed_job.py
 fed_avg.py
 tf_receiver.py
 NVFlare/
+.DS_Store
+project.yml 
 
 # C extensions
 *.so
