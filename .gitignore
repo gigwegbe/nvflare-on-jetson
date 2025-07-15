@@ -8,6 +8,7 @@ tf_receiver.py
 NVFlare/
 .DS_Store
 project.yml 
+env-admin/
 
 # C extensions
 *.so

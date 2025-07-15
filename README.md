@@ -27,8 +27,9 @@ Before you begin, ensure you have:
 - Basic NVFLARE Knowledge: Familiarity with NVIDIA FLARE concepts is beneficial - [Paper](https://arxiv.org/pdf/2210.13291) 
   
 ### Provisioning
+Depending on the number of devices to be provisioned update the ip-address of the devices in the `jetson-project.yml` file. 
 ```
-nvflare provision -p my_project.yml -w ./prod_workspace
+nvflare provision -p jetson-project.yml -w ./prod_workspace
 ```
 
 #### Distribute Credentials
@@ -55,5 +56,5 @@ nvflare provision -p my_project.yml -w ./prod_workspace
 This section will be updated with common problems encountered during real-world deployment and their solutions, covering:
 
 ### References
-- Provisioning 
--  
+- [Provisioning in NVIDIA FLARE](https://nvflare.readthedocs.io/en/2.6.0/programming_guide/provisioning_system.html)
+- [Operating NVFLARE - Admin Client, Commands, FLARE API](https://nvflare.readthedocs.io/en/2.6.0/real_world_fl/operation.html)
