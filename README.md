@@ -15,9 +15,9 @@ Before you begin, ensure you have:
 
 - Four Physical Machines:
 
-    - 1 x Server Machine (e.g., a desktop PC, cloud instance)
+    - 1 x Server Machine ( Jetson Nano 2GB)
 
-    - 3 x NVIDIA Jetson Client Devices (e.g., Jetson Nano, Xavier NX, Orin Nano)
+    - 3 x NVIDIA Jetson Client Devices (Jetson Nano 4GB)
 
 - Operating System: Ubuntu LTS recommended on all machines.
 
