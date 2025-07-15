@@ -32,6 +32,104 @@ Depending on the number of devices to be provisioned update the ip-address of th
 nvflare provision -p jetson-project.yml -w ./prod_workspace
 ```
 
+Output: 
+```
+(env-admin) george@Georges-MacBook-Pro nvflare-on-jetson % nvflare provision -p jetson-project.yml -w ./prod_workspace
+Project yaml file: /Users/george/Documents/github/nvflare-on-jetson/jetson-project.yml.
+INFO: Generated results can be found under /Users/george/Documents/github/nvflare-on-jetson/./prod_workspace/jetson_fl_project/prod_00. 
+```
+
+Directory structure: 
+```
+(env-admin) george@Georges-MacBook-Pro prod_workspace % tree 
+.
+└── jetson_fl_project
+    ├── prod_00
+    │   ├── admin@nvidia.com
+    │   │   ├── local
+    │   │   ├── startup
+    │   │   │   ├── client.crt
+    │   │   │   ├── client.key
+    │   │   │   ├── fed_admin.json
+    │   │   │   ├── fl_admin.sh
+    │   │   │   ├── readme.txt
+    │   │   │   ├── rootCA.pem
+    │   │   │   ├── signature.json
+    │   │   │   └── system_info.ipynb
+    │   │   └── transfer
+    │   ├── server1
+    │   │   ├── local
+    │   │   │   ├── authorization.json.default
+    │   │   │   ├── log_config.json.default
+    │   │   │   ├── privacy.json.sample
+    │   │   │   └── resources.json.default
+    │   │   ├── readme.txt
+    │   │   ├── startup
+    │   │   │   ├── fed_server.json
+    │   │   │   ├── rootCA.pem
+    │   │   │   ├── server.crt
+    │   │   │   ├── server.key
+    │   │   │   ├── signature.json
+    │   │   │   ├── start.sh
+    │   │   │   ├── stop_fl.sh
+    │   │   │   └── sub_start.sh
+    │   │   └── transfer
+    │   ├── site-1
+    │   │   ├── local
+    │   │   │   ├── authorization.json.default
+    │   │   │   ├── log_config.json.default
+    │   │   │   ├── privacy.json.sample
+    │   │   │   └── resources.json.default
+    │   │   ├── readme.txt
+    │   │   ├── startup
+    │   │   │   ├── client.crt
+    │   │   │   ├── client.key
+    │   │   │   ├── fed_client.json
+    │   │   │   ├── rootCA.pem
+    │   │   │   ├── signature.json
+    │   │   │   ├── start.sh
+    │   │   │   ├── stop_fl.sh
+    │   │   │   └── sub_start.sh
+    │   │   └── transfer
+    │   ├── site-2
+    │   │   ├── local
+    │   │   │   ├── authorization.json.default
+    │   │   │   ├── log_config.json.default
+    │   │   │   ├── privacy.json.sample
+    │   │   │   └── resources.json.default
+    │   │   ├── readme.txt
+    │   │   ├── startup
+    │   │   │   ├── client.crt
+    │   │   │   ├── client.key
+    │   │   │   ├── fed_client.json
+    │   │   │   ├── rootCA.pem
+    │   │   │   ├── signature.json
+    │   │   │   ├── start.sh
+    │   │   │   ├── stop_fl.sh
+    │   │   │   └── sub_start.sh
+    │   │   └── transfer
+    │   ├── site-3
+    │   │   ├── local
+    │   │   │   ├── authorization.json.default
+    │   │   │   ├── log_config.json.default
+    │   │   │   ├── privacy.json.sample
+    │   │   │   └── resources.json.default
+    │   │   ├── readme.txt
+    │   │   ├── startup
+    │   │   │   ├── client.crt
+    │   │   │   ├── client.key
+    │   │   │   ├── fed_client.json
+    │   │   │   ├── rootCA.pem
+    │   │   │   ├── signature.json
+    │   │   │   ├── start.sh
+    │   │   │   ├── stop_fl.sh
+    │   │   │   └── sub_start.sh
+    │   │   └── transfer
+    │   └── start_all.sh
+    └── state
+        └── cert.json
+```
+
 #### Distribute Credentials
 ```
 ./copy_out_tls.sh
