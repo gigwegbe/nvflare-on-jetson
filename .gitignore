@@ -9,6 +9,7 @@ NVFlare/
 .DS_Store
 project.yml 
 env-admin/
+prod_workspace/
 
 # C extensions
 *.so
