@@ -1,0 +1,6 @@
+torch-1.10.0a0+git36449ea-cp310-cp310-linux_aarch64.whl
+torchvision-0.11.0a0+58a60b2-cp310-cp310-linux_aarch64.whl
+numpy==1.26.4
+protobuf==3.20.3
+nvflare
+tensorboard
