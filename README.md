@@ -131,6 +131,12 @@ Directory structure:
 ```
 
 #### Distribute Credentials
+Copy each site to their respective devices: 
+- server1 -> Server 
+- site1   -> Client1
+- site2   -> Client2
+- site3   -> Client3 
+  
 ```
 ./copy_out_tls.sh
 ```
