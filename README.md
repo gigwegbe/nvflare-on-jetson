@@ -133,13 +133,23 @@ Directory structure:
 #### Distribute Credentials
 Copy each site to their respective devices: 
 - server1 -> Server 
-- site1   -> Client1
+  ```
+  ```
+- site1   -> Client1 
+  ```
+  ```
 - site2   -> Client2
+  ```
+  ```
 - site3   -> Client3 
-  
-```
+  ```
+  ```
+Note: The `admin@nvidia.com` maybe situated in the provisioning machine or server depending on device setup. 
+
+<!-- ```
 ./copy_out_tls.sh
-```
+``` -->
+
 
 
 ### Admin 
