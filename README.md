@@ -134,15 +134,19 @@ Directory structure:
 Copy each site to their respective devices: 
 - server1 -> Server 
   ```
+  (env-admin) george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/server1   george@jetson-nano-2g.local:/home/george/Documents
   ```
-- site1   -> Client1 
+- site-1   -> Client1 
   ```
+  (env-admin) george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/site-1   george@jetson-n2.local:/home/george/Documents
   ```
-- site2   -> Client2
+- site-2   -> Client2
   ```
+  (env-admin) george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/site-2   george@jetson-n3.local:/home/george/Documents
   ```
-- site3   -> Client3 
+- site-3   -> Client3 
   ```
+  (env-admin) george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/site-3   george@jetson-n4.local:/home/george/Documents
   ```
 Note: The `admin@nvidia.com` maybe situated in the provisioning machine or server depending on device setup. 
 
