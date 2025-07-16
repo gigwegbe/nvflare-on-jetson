@@ -34,14 +34,14 @@ nvflare provision -p jetson-project.yml -w ./prod_workspace
 
 Output: 
 ```
-(env-admin) george@Georges-MacBook-Pro nvflare-on-jetson % nvflare provision -p jetson-project.yml -w ./prod_workspace
+george@Georges-MacBook-Pro nvflare-on-jetson % nvflare provision -p jetson-project.yml -w ./prod_workspace
 Project yaml file: /Users/george/Documents/github/nvflare-on-jetson/jetson-project.yml.
 INFO: Generated results can be found under /Users/george/Documents/github/nvflare-on-jetson/./prod_workspace/jetson_fl_project/prod_00. 
 ```
 
 Directory structure: 
 ```
-(env-admin) george@Georges-MacBook-Pro prod_workspace % tree 
+george@Georges-MacBook-Pro prod_workspace % tree 
 .
 └── jetson_fl_project
     ├── prod_00
@@ -134,19 +134,19 @@ Directory structure:
 Copy each site to their respective devices: 
 - server1 -> Server 
   ```
-  (env-admin) george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/server1   george@jetson-nano-2g.local:/home/george/Documents
+  george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/server1   george@jetson-nano-2g.local:/home/george/Documents
   ```
 - site-1   -> Client1 
   ```
-  (env-admin) george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/site-1   george@jetson-n2.local:/home/george/Documents
+  george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/site-1   george@jetson-n2.local:/home/george/Documents
   ```
 - site-2   -> Client2
   ```
-  (env-admin) george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/site-2   george@jetson-n3.local:/home/george/Documents
+  george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/site-2   george@jetson-n3.local:/home/george/Documents
   ```
 - site-3   -> Client3 
   ```
-  (env-admin) george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/site-3   george@jetson-n4.local:/home/george/Documents
+  george@Georges-MacBook-Pro prod_workspace % scp -r  jetson_fl_project/prod_00/site-3   george@jetson-n4.local:/home/george/Documents
   ```
 Note: The `admin@nvidia.com` maybe situated in the provisioning machine or server depending on device setup. 
 
@@ -157,12 +157,30 @@ Note: The `admin@nvidia.com` maybe situated in the provisioning machine or serve
 
 
 ### Admin 
-
+In the admin machine create and activate the python 3.10 or higher virtual environment and install the dependencies in it. 
+ ```
+(env-admin) george@Georges-MacBook-Pro nvflare-on-jetson % pip install -r requirements.txt 
+ ```
 
 ### Server 
-
+Do the above for the server too. 
+```
+(nvflare-env) george@jetson-nano-2g:~/Documents$ pip install -r requirements.txt
+```
 
 ### Clients 
+Do the above for the clients too. 
+```
+(nvflare-env) george@jetson-n2:~/Documents$ pip install -r requirements.txt
+```
+
+```
+(nvflare-env) george@jetson-n3:~/Documents$ pip install -r requirements.txt
+```
+
+```
+(nvflare-env) george@jetson-n4:~/Documents$ pip install -r requirements.txt
+```
 
 
 
