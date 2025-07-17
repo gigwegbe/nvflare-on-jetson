@@ -365,3 +365,5 @@ Add the line to `sudo nano /etc/hosts`:
 ### References
 - [Provisioning in NVIDIA FLARE](https://nvflare.readthedocs.io/en/2.6.0/programming_guide/provisioning_system.html)
 - [Operating NVFLARE - Admin Client, Commands, FLARE API](https://nvflare.readthedocs.io/en/2.6.0/real_world_fl/operation.html)
+- [Experimenting with Novel Distributed Applications Using NVIDIA Flare 2.1](https://developer.nvidia.com/blog/experimenting-with-novel-distributed-applications-using-nvidia-flare-2-1)
+- [NVFLARE Overview](https://nvflare.readthedocs.io/en/2.1.0/user_guide/overview.html)
