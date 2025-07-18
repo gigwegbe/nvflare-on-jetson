@@ -10,7 +10,7 @@ participants:
     org: nvidia
     fed_learn_port: 8002 # Port for clients to connect
     admin_port: 8003     # Port for admin client to connect
-    host: 192.168.1.64 # Machine A's actual IP (Server)
+    host: 192.168.1.102 # Machine A's actual IP (Server)
 
   # Define the clients
   - name: site-1
@@ -22,7 +22,7 @@ participants:
   - name: site-2
     type: client
     org: nvidia
-    host: 192.168.1.102 # Machine C's actual IP
+    host: 192.168.1.67 # Machine C's actual IP
     enable_byoc: true
 
   - name: site-3
