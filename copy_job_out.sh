@@ -1,0 +1,2 @@
+cp -r  /tmp/nvflare/jobs/job_config/hello-pt_cifar10_fedavg_three_clients /Users/george/Documents/github/nvflare-on-jetson/jobs
+cp -r jobs/hello-pt_cifar10_fedavg_three_clients/ prod_workspace/jetson_fl_project/prod_00/admin@nvidia.com/transfer 

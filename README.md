@@ -5,8 +5,8 @@ This project goes beyond simulations, demonstrating how to securely connect your
 
 
 - Slide - [Link](https://docs.google.com/presentation/d/1Wgd5xcCyv9OtaZZSlBwdCtBbzTv0dXWNgOvunR0-BBI/edit?usp=sharing)
-
-
+- Poster - [Link](https://drive.google.com/drive/folders/1iqSnyJ4ytD4TalNtwCVHrUnu4j3VyuGX)
+  
 ### Getting Started 
 This section will guide you through setting up your environment and deploying the NVFLARE system. 
 
