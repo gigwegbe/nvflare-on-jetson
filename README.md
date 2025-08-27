@@ -1,5 +1,5 @@
 ## Running Federated Learning on Jetson Devices with NVFLARE
-![Cover Image](./asset/cover-page.jpg)
+![Cover Image](./assets/cover-page.jpg)
 
 This repository provides a step-by-step guide to deploying NVIDIA FLARE end-to-end on real hardware. Follow along to set up a central server and three NVIDIA Jetson client devices for federated learning in an edge environment.
 
