@@ -369,3 +369,7 @@ Add the line to `sudo nano /etc/hosts`:
 - [Operating NVFLARE - Admin Client, Commands, FLARE API](https://nvflare.readthedocs.io/en/2.6.0/real_world_fl/operation.html)
 - [Experimenting with Novel Distributed Applications Using NVIDIA Flare 2.1](https://developer.nvidia.com/blog/experimenting-with-novel-distributed-applications-using-nvidia-flare-2-1)
 - [NVFLARE Overview](https://nvflare.readthedocs.io/en/2.1.0/user_guide/overview.html)
+- [Not All Federated Learning Algorithms Are Created Equal: A Performance Evaluation Study](https://arxiv.org/html/2403.17287)
+- []()
+- []()
+- []()
