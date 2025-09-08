@@ -6,7 +6,7 @@ This repository provides a step-by-step guide to deploying NVIDIA FLARE end-to-e
 This project goes beyond simulations, demonstrating how to securely connect your devices over a physical network and run federated training examples, while also providing solutions for common deployment challenges.
 
 
-- Slide - [Link](https://docs.google.com/presentation/d/1Wgd5xcCyv9OtaZZSlBwdCtBbzTv0dXWNgOvunR0-BBI/edit?usp=sharing)
+- Slide - [Link](./assets/Running-Federated-Learning-on-Jetson-Devices-with-NVFLARE-submitted.pdf)
 - Poster - [Link](https://github.com/gigwegbe/nvflare-on-jetson/blob/main/assets/nvflare-poster-dli.pdf)
   
 ### Getting Started 
@@ -373,3 +373,5 @@ Add the line to `sudo nano /etc/hosts`:
 - [FL Algorithms](https://nvflare.readthedocs.io/en/main/examples/fl_algorithms.html)
 - [Secure Federated XGBoost with CUDA-accelerated Homomorphic Encryption via NVIDIA FLARE](https://arxiv.org/pdf/2504.03909)
 - [Federated Learning with Homomorphic Encryption](https://developer.nvidia.com/blog/federated-learning-with-homomorphic-encryption/)
+- [NVIDIA FLARE: Federated Learning from Simulation to Real-World](https://arxiv.org/abs/2210.13291)
+- []()
